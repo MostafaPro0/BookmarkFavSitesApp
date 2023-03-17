@@ -1,0 +1,38 @@
+.borderbottom {
+  padding: 30px 0px;
+  text-align: center;
+  border-bottom: 1px solid #999;
+  border-top: 1px solid #999;
+}
+
+.tablemo {
+  margin: 30px 0px;
+  display: none;
+}
+
+.column {
+  margin: 10px 0px;
+  background-image: linear-gradient(rgb(224, 224, 224), rgb(242, 242, 242));
+}
+
+.bookmarknameimg {
+  display: none;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10;
+  right: 0;
+}
+
+.bookmarkurlimg {
+  display: none;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10;
+  right: 0;
+}

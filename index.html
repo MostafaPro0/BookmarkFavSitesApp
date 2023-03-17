@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CRUD - Mostafa</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-reboot.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-utilities.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-grid.min.css" rel="stylesheet">
+  <link href="./css/fontawesome.css" rel="stylesheet">
+  <link href="./css/ionicons.min.css" rel="stylesheet">
+  <link href="./css/brands.css" rel="stylesheet">
+  <link href="./css/solid.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <body>
+    <header class="m-5">
+      <div class="container px-5  ">
+        <h3 style="color: #AAA;">Bookmarker</h3>
+      </div>
+    </header>
+    <div class="container px-5 borderbottom">
+      <div class="text-bg-light p-5">
+        <div class="col-12  text-center">
+          <h2>Bookmark your favorite sites </h2>
+          <p class="m-2">Site Name</p>
+          <div class="d-flex position-relative">
+            <input onkeyup="Checkvalidname(this.value)" class="form-control " ; id="bookName"
+              placeholder="Bookmark Name" type="text">
+            <div class="namemo">
+
+            </div>
+          </div>
+          <p class="m-2">Site URL</p>
+          <div class="d-flex  position-relative">
+            <input onkeyup="Checkvalidurl(this.value)"  class="form-control " ; id="bookUrl" placeholder="website URL" type="text">
+       <div class="urlmo">
+
+            </div>
+          </div>
+          <div class="m-auto">
+            <button id="submitbutton" class="btn btn-primary m-3" onclick="submit()">Add</button>
+            <div class="errornamemo">
+
+            </div> 
+            <div class="errorurlmo">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container tablemo">
+        <input onkeyup="displayData(this.value)" class="form-control " ; id="searchinput"
+        placeholder="Bookmark Name" type="text">
+        <div id="rowsmo">
+
+        </div>
+      </div>
+    </div>
+    <footer class="m-5">
+      <div class="container px-5 ">
+        <p>© 2023 Mostafa - Bookmarker Inc.</p>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
